@@ -7,3 +7,5 @@ var server = require('http').Server(app);
 
 server.listen(80);
 app.use('/', express.static('html/'));
+
+console.log("listening on localhost:80");

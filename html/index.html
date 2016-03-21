@@ -2,37 +2,43 @@
   <head>
     <title>Leap JavaScript Sample</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/vendor/three.js"></script>
+    <!-- <script src="js/vendor/three.js"></script>
 
     <script src="js/vendor/leap-0.6.4.js"></script>
     <script src="js/vendor/leap-plugins-0.1.6.js"></script>
     <script src="js/vendor/leap.transform.js"></script>
     <script src="js/vendor/leap.rigged-hand-0.1.4.js"></script>
-    <!--<script src="js/vendor/three-orbit-controls.js"></script>-->
-    <script src="js/scene2.js"></script>
+    <script src="js/vendor/three-orbit-controls.js"></script>
+    <script src="js/scene2.js"></script> -->
   </head>
-  <body>
-    <!-- <h1>Leap JavaScript Sample</h1>
-    <div id="main">
-      <h3>Frame data:</h3>
-      <div id="frameData"></div>
-      <div style="clear:both;"></div>
-      <h3>Hand data:</h3>
-      <div id="handData"></div>
-      <div style="clear:both;"></div>
-      <h3>Finger and tool data:</h3>
-      <div id="pointableData"></div>
-      <div style="clear:both;"></div>
-      <h3>Gesture data:</h3>
-      <div id="gestureData"></div>
-    </div> -->
+  <!-- <body>
     <div id="scene"></div>
     <div id="output"></div>
+  </body> -->
+
+  <body>
+
+
+  <script src="js/vendor/three.min.js"></script>
+  <script src="js/vendor/TrackballControls.js"></script>
+
+  <script src="js/vendor/leap-0.6.0.js"></script>
+  <!-- This gives us the hand-hold and hand-entry plugins, which rigged-hand depends on -->
+  <script src="js/vendor/leap-plugins-0.1.6.js"></script>
+  <script src="js/vendor/leap.transform.js"></script>
+  <script src="js/vendor/leap.rigged-hand-0.1.4.js"></script>
+  <script src="js/vendor/Stats.js"></script>
+  <script src="js/vendor/advanced.js"></script>
+
+
+
   </body>
+  </html>
+
 
     <script>
 
-        initScene(document.getElementById("scene"));
+        //initScene(document.getElementById("scene"));
         //console.log(initScene);
 
     </script>
